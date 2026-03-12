@@ -88,7 +88,7 @@ int main()
         temp=temp/10;
     }
     
-    for (int j = i-1;j>=0;j--)
+    for (int j=i-1;j>=0;j--)
        head1= insertatend(head1,arr[j]);
     
     int temp2=n2;

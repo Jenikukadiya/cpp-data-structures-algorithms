@@ -52,7 +52,7 @@ struct node* reverseLL(struct node* head)
 }
 struct node * subtractLL(struct node* h1,  struct node* h2)
 {
-    h1 = reverseLL(h1);
+    h1 =reverseLL(h1);
     h2= reverseLL(h2);
     
     int borrow = 0 ;
@@ -67,7 +67,7 @@ struct node * subtractLL(struct node* h1,  struct node* h2)
         {
             d1 = d1+10;
             borrow = 1;
-        }
+        } 
         else
         {
             borrow = 0 ;
